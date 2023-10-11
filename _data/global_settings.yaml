@@ -1,0 +1,21 @@
+website:
+  url: https://giantcobayo.com
+  name: Giant Cobayo
+  # Your copyright... We will add "© YEAR " in the beginning
+  copyright: "Giant Cobayo, some rights reserved"
+
+privacy:
+  # If set to true, no cookies banner will be shown, but all functionality under privacy is disabled
+  disable: false
+  # If set to true, no matter privacy settings, we will only show captions for YouTube videos that will redirect to YouTube
+  disable_youtube_embed: false
+  # Email address described on the policy and used to receive questions about policy & privacy
+  email: privacy@giantcobayo.com
+  cookie_days: 30 # Days the cookie settings are stored
+  google_analytics_id: # Your Google Analytics Tracking ID
+
+sections:
+  # What to show in the landing page Hero
+  hero: video # video | game | post | _ (empty for none)
+  # What to show on the top-right as call to action
+  top_cta: discord  # discord | _ (empty for none)

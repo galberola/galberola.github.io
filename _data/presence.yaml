@@ -1,0 +1,19 @@
+# ==================================
+# Where can people find you
+# ==================================
+
+# - icon: NAME
+#   url: URL
+
+# Any icon on the list https://icons.getbootstrap.com stored at assets/icons
+
+- icon: youtube
+  url: https://youtube.com
+- icon: instagram
+  url: https://instagram.com
+- icon: tiktok
+  url: https://tiktok.com
+- icon: twitter
+  url: https://twitter.com
+- icon: discord
+  url: https://discord.com

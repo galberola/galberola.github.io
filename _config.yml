@@ -1,0 +1,60 @@
+url: "https://giantcobayo.com"
+
+# Build settings
+theme: giantcobayo_theme
+plugins:
+  - jekyll-feed
+
+sass:
+  load_paths:
+  - _sass
+
+# Remove the date on the URL of posts
+permalink: /posts/:title
+
+# Handle post-alike items, which can be filtered separatedly
+collections:
+  games:
+    output: true
+    permalink: /:collection/:path
+  # Specific landing pages. These are not showed on navigation
+  # and navbar is disabled by default on these pages
+  landing_pages:
+    output: true
+    permalink: /lp/:path
+  videos:
+    output: true
+    permalink: /videos/:path
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "games"
+    values:
+      layout: "game"
+  -
+    scope:
+      path: ""
+      type: "landing_pages"
+    values:
+      layout: "landing_page"
+  -
+    scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "video"
