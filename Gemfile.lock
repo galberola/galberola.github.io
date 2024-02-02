@@ -1,3 +1,8 @@
+PATH
+  remote: vendor/gems/giantcobayo_theme-0.17.0
+  specs:
+    giantcobayo_theme (0.17.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -11,8 +16,6 @@ GEM
     eventmachine (1.2.7)
     ffi (1.16.3-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
-    giantcobayo_theme (0.17.0)
-      jekyll (~> 4.3)
     google-protobuf (3.25.2-x64-mingw-ucrt)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
@@ -73,7 +76,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  giantcobayo_theme (= 0.17.0)
+  giantcobayo_theme (= 0.17.0)!
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.3)
   jekyll-feed (~> 0.12)
