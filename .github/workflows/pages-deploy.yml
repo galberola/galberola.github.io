@@ -45,6 +45,9 @@ jobs:
           ruby-version: 3
           bundler-cache: true
 
+      - name: Install gem
+        run: gem install -l ./_gems/giantcobayo_theme-0.17.0.gem
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
