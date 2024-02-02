@@ -1,0 +1,78 @@
+---
+layout: default
+title: Home
+---
+
+<!-- Hero section -->
+{% if site.videos.size > 0 %}
+  {% comment %} Show the latest Video based on the date on the Front Matters Parameters {% endcomment %}
+  {% assign recent_video = site.videos | last %}
+  {% include heroes/video.html data=recent_video %}
+{% endif %}
+
+{% if site.games.size > 0 %}
+  {% comment %} Show the latest Game based on the date on the Front Matters Parameters {% endcomment %}
+  {% assign recent_game = site.games | last %}
+  {% include heroes/game.html data=recent_game %}
+{% endif %}
+{% if site.posts.size > 0 %}
+  {% comment %} Show the latest Game based on the date on the Front Matters Parameters {% endcomment %}
+  {% assign recent_post = site.posts | first %}
+  {% include heroes/post.html data=recent_post %}
+{% endif %}
+
+{% if site.games.size > 0 %}
+  <div class="v-card-container">
+    <h1>Latest games</h2>
+    <div class="row">
+      {% assign games = site.games | sort: 'date' | reverse  %}
+      {% for game in games limit: 2 %}
+        <div class="v-card-col">
+          {% include cards/vertical.html data=game %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <a href="/games" role="button" class="btn btn-primary">See all games</a>
+  </div>
+{% endif %}
+
+{% if site.videos.size > 0 %}
+<div class="v-card-container">
+  <h1>Latest videos</h2>
+  <div class="album d-flex col-12">
+    <div class="row w-100 g-4 pb-5">
+      {% assign videos = site.videos | sort: 'date' | reverse  %}
+      {% for video in videos limit: 2 %}
+        <div class="col-12 col-lg-6">
+          <div class="card shadow-sm">
+            {% include embeds/youtube.html data=video img_ratio="max" %}
+            <div class="card-body">
+              <strong class="text-primary-emphasis">{{ video.title | Title }}</strong>
+              <p class="card-text">{{ video.excerpt | Description }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <a href="/videos" role="button" class="btn btn-primary">See all videos</a>
+</div>
+{% endif %}
+
+{% if site.posts.size > 0 %}
+  <div class="h-card-container">
+    <h1>Latest posts</h2>
+    <div class="row">
+      {% assign posts = site.posts | sort: 'date' | reverse  %}
+      {% for post in posts limit: 2 %}
+        <div class="h-card-col">
+          {% include cards/horizontal.html data=post %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <a href="/blog" role="button" class="btn btn-primary">See all posts</a>
+  </div>
+{% endif %}
