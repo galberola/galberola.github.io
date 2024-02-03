@@ -8,12 +8,10 @@
 # Any icon on the list https://icons.getbootstrap.com stored at assets/icons
 
 - icon: youtube
-  url: https://youtube.com
-- icon: instagram
-  url: https://instagram.com
-- icon: tiktok
-  url: https://tiktok.com
+  url: https://www.youtube.com/@GiantCobayo
 - icon: twitter
-  url: https://twitter.com
+  url: https://twitter.com/giantcobayo
+- icon: instagram
+  url: https://instagram.com/giantcobayo
 # - icon: discord
 #   url: https://discord.com
