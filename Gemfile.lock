@@ -1,7 +1,7 @@
 PATH
-  remote: vendor/gems/giantcobayo_theme-0.17.2
+  remote: vendor/gems/giantcobayo_theme-0.18.1
   specs:
-    giantcobayo_theme (0.17.2)
+    giantcobayo_theme (0.18.1)
 
 GEM
   remote: https://rubygems.org/
@@ -76,7 +76,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  giantcobayo_theme (= 0.17.2)!
+  giantcobayo_theme (= 0.18.1)!
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.3)
   jekyll-feed (~> 0.12)
