@@ -1,6 +1,7 @@
 website:
   url: https://giantcobayo.com
   name: Giant Cobayo
+  logo: icons/1-circle.svg
   # Your copyright... We will add "© YEAR " in the beginning
   copyright: "Giant Cobayo, some rights reserved"
 
@@ -15,7 +16,11 @@ privacy:
   google_analytics_id: # Your Google Analytics Tracking ID
 
 sections:
+  # What to show on the top-right part of the website
+  brand: name # name | logo
+
   # What to show in the landing page Hero
   hero: video # video | game | post | _ (empty for none)
+
   # What to show on the top-right as call to action
   top_cta: discord  # discord | _ (empty for none)
