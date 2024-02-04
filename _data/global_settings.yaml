@@ -4,6 +4,10 @@ website:
   logo: icons/1-circle.svg
   # Your copyright... We will add "© YEAR " in the beginning
   copyright: "Giant Cobayo, some rights reserved"
+  # Open Graph settings
+  og_disabled: false
+  # Default og_image, can be overriden per page
+  og_image: /assets/img/favicons/android-chrome-512x512.png
 
 privacy:
   # If set to true, no cookies banner will be shown, but all functionality under privacy is disabled
