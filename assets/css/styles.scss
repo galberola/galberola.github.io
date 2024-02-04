@@ -1,0 +1,10 @@
+---
+---
+@import "giant-cobayo/vars";
+@import "giant-cobayo/custom-variables"; // Hook to override predefined variables
+@import "bootstrap/scss/bootstrap";
+
+@import "giant-cobayo/animations";
+@import "giant-cobayo/base";
+
+@import "giant-cobayo/custom-styles"; // Hook to override existing styles.
