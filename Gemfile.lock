@@ -1,7 +1,7 @@
 PATH
-  remote: vendor/gems/giantcobayo_theme-0.21.0
+  remote: vendor/gems/giantcobayo_theme-0.21.1
   specs:
-    giantcobayo_theme (0.21.0)
+    giantcobayo_theme (0.21.1)
 
 GEM
   remote: https://rubygems.org/
@@ -14,9 +14,9 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.16.3-x64-mingw-ucrt)
+    ffi (1.16.3)
     forwardable-extended (2.6.0)
-    google-protobuf (3.25.2-x64-mingw-ucrt)
+    google-protobuf (3.25.2)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
@@ -69,20 +69,20 @@ GEM
     tzinfo-data (1.2024.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
-    wdm (0.1.1)
+    wdm (0.2.0)
     webrick (1.8.1)
 
 PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  giantcobayo_theme (= 0.21.0)!
+  giantcobayo_theme (= 0.21.1)!
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.3)
   jekyll-feed (~> 0.12)
   tzinfo (>= 1, < 3)
   tzinfo-data
-  wdm (~> 0.1.1)
+  wdm (~> 0.2.0)
 
 BUNDLED WITH
    2.4.20
