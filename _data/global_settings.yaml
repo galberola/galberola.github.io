@@ -24,7 +24,7 @@ sections:
   brand: name # name | logo
 
   # What to show in the landing page Hero
-  hero: video # video | game | post | _ (empty for none)
+  hero: post # video | game | post | _ (empty for none)
 
   # What to show on the top-right as call to action
   top_cta: discord  # discord | _ (empty for none)
