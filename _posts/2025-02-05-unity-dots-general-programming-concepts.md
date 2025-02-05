@@ -227,6 +227,10 @@ As next steps you can:
 
 To start learning about **Unity's DOTS implementations**:
 
+Start here 👉 <a href="https://learn.unity.com/tutorial/65bbbee8edbc2a1bb56409d4?uv=6&projectId=65b3d3cfedbc2a5399ce3740#">Basics of DOTS: Jobs and Entities, Unity Learn project</a>
+
+<small>This is an intro to the concepts</small>
+
 <a href="https://unity.com/campaign/data-oriented-design-bootcamp" target="_blank">Unity's DOTS bootcamp</a>
 
 <small><b>I really recommend this</b> bootcamp. But be wary, it's not holding your hand. Expect to revisit parts of it more than once, and have the code open while going through the video. Pause, experiment a bit, repeat.</small>
